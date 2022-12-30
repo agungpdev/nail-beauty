@@ -1,0 +1,165 @@
+@import "./components/grid";
+@import "./components/colors";
+@import "./components/typography";
+@import "./components/button";
+@import "./components/image";
+@import "./components/form";
+@import "./components/table";
+@import "./components/spacer";
+@import "./components/sliders";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: $defaultfont;
+}
+
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.ai-center{ align-items: center; }
+.jc-sbetween{ justify-content: space-between; }
+
+.navbar-head{
+    position: absolute;
+    z-index: 1;
+    font-family: $fontbeauty;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 0.1px solid white;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+.navbar{
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    width: 100%;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    &-menu{
+        box-sizing: border-box;
+        a{
+            padding: 5px 20px;
+        }
+    }
+    &-brand{
+        position: absolute;
+        left: 45%;
+        top: -25%;
+        a{
+            font-family: $fontbeauty;
+            font-size: 2em;
+        }
+    }
+}
+
+.appointment{
+    background: #ebe9eb6e;
+}
+
+.myphone{
+    padding: 0px 20px;
+    padding-bottom: 20px;
+    span{
+        font-size: 12px;
+        color: gray;
+    }
+}
+
+.product{
+
+    &-title{
+        text-align: center;
+        span{
+            font-size: 12px;
+        }
+        h3{
+            font-size: 2.5em;
+            font-weight: 400;
+            font-family: $fontbeauty;
+            color: rgb(37, 37, 37);
+        }
+    }
+    &-content{
+        text-align: center;
+        font-family: $fontbeauty;
+        span{
+            font-size: 1.2em;
+        }
+        p{
+            color: gray;
+        }
+    }
+}
+
+.news{
+
+    &-title{
+        h3{
+            font-size: 2.5em;
+            text-align: center;
+            font-weight: 400;
+            color: rgb(37, 37, 37);
+            font-family: $fontbeauty;
+        }
+    }
+
+    &-content{
+        h4{
+            font-family: $fontbeauty;
+            font-size: 1.5em;
+        }
+    }
+}
+
+
+.pricing{
+    font-family: $fontbeauty;
+    background: #ebe9eb6e;
+    h2{
+        color: rgb(61, 61, 61);
+        font-size: 2.5em;
+        font-weight: 400;
+    }
+    &-text{
+        span{
+            color: rgb(61, 61, 61);
+        }
+        p{
+            color: gray;
+        }
+    }
+}
+
+.footer{
+    h3{
+        font-family: $fontbeauty;
+        font-size: 2em;
+        font-weight: 300;
+    }
+    a{
+        text-decoration: none;
+        color: gray;
+    }
+    p{
+        color: gray;
+    }
+
+    .license{
+        font-size: 12px;
+        padding: 5px 0px;
+        background: rgb(54, 54, 54);
+        color: rgba(245, 245, 245, 0.808);
+    }
+}

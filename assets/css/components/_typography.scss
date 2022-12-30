@@ -1,0 +1,33 @@
+$defaultfont:'Poppins', sans-serif;
+$fontsecondary: 'Montserrat', sans-serif;
+$fontbeauty: 'Frank Ruhl Libre', serif;
+
+p{
+    font-size: 16px;
+    line-height: 180%;
+}
+
+h5{
+    font-size: 16px;
+    line-height: 180%;
+}
+
+h4{
+    font-size: calc(16 * 1.2) * 1px;
+    line-height: 180%;
+}
+
+h3{
+    font-size: calc(19.2 * 1.2) * 1px;
+    line-height: 180%;
+}
+
+h2{
+    font-size: calc(23.04 * 1.2) * 1px;
+    line-height: 120%;
+}
+
+h1{
+    font-size: calc(27.648 * 1.2) * 1px;
+    line-height: 120%;
+}

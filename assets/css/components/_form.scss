@@ -1,0 +1,17 @@
+.form{
+    &-group{
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+    &-control{
+        padding: 13px;
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid gray;
+        background: #ebe9eb1a;
+    }
+}

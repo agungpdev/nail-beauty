@@ -1,0 +1,24 @@
+.btn{
+    padding: 10px 20px;
+    background: $primary;
+    color: $netral;
+    text-decoration: none;
+    display: inline-block;
+
+    &-light{
+        background: none;
+        color: gray;
+        border: 1px solid gray;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+    &-more{
+        padding: 5px 0px;
+        background: none;
+        border-bottom: 1px solid black;
+        color: black;
+        display: inline-block;
+        text-align: left;
+    }
+}
